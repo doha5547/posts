@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to top right,#562b3c,#090909);
+}
+#posts-container {
+    display: flex;
+   justify-content: center; 
+   gap: 20px;
+} 
+.container .post{
+    width:48%;
+    padding: 10px;
+}
+body h1{
+    color: rgb(121, 75, 96)
+}
+.post h2{
+    color: #090909;
+}
+.container .post:hover{
+    transform: translateX(8px);
+}
+.container .post{
+    transition: all 0.3s ease-in-out;
+}
+@media (max-width:1200px) {
+    .container .post {
+      width: 95%; 
+    }
+  }
